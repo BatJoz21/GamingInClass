@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: e81ca4bd888dd4346b2432b6a33f4c15
+  - enabled: 1
+    path: Assets/Scenes/Grade Selection.unity
+    guid: 392228c63587aef4189440f159fa41bd
+  - enabled: 1
+    path: Assets/Scenes/Subjects Selection.unity
+    guid: 495a378b93402514d9ac9250accc51b8
+  - enabled: 1
+    path: Assets/Scenes/Math/Grade 1/Level Selection Math Grade 1.unity
+    guid: e399a9e4f638daf40b8e109332c55f94
+  - enabled: 1
+    path: Assets/Scenes/Math/Grade 1/Math_Grade 1_Level 1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
