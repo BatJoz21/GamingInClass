@@ -305,6 +305,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94109c3adb139f14f80d09a949d628ac, type: 3}
+--- !u!114 &44422211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2877804236077084910, guid: 94109c3adb139f14f80d09a949d628ac, type: 3}
+  m_PrefabInstance: {fileID: 44422210}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1790e1353d958854ba048e1ee0d8d97e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &55893795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,6 +419,38 @@ PrefabInstance:
     - target: {fileID: 6725055096769755831, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44422211}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonsBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Science_Grade 2_Level 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8373995542732448880, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Name
@@ -672,6 +715,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44422211}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonsBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Science_Grade 2_Level 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8373995542732448880, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Name
       value: Button Level 4
@@ -885,6 +960,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44422211}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonsBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Science_Grade 2_Level 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8373995542732448880, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Name
       value: Button Level 2
@@ -1006,6 +1113,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44422211}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonsBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Science_Grade 2_Level 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8373995542732448880, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Name
       value: Button Level 5
@@ -1081,7 +1220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mata Pelajaran: Matematika'
+  m_text: 'Mata Pelajaran: IPA'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1216,7 +1355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Kelas: 1 SD'
+  m_text: 'Kelas: 2 SD'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1384,6 +1523,38 @@ PrefabInstance:
     - target: {fileID: 1776508425451754722, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44422211}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonsBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Subjects Selection Kelas 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772471736420534976, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7709370046617345834, guid: 3188cdf64bf4a464b814f2138a83ff20, type: 3}
       propertyPath: m_Name
@@ -2572,6 +2743,38 @@ PrefabInstance:
     - target: {fileID: 6725055096769755831, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44422211}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonsBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Science_Grade 2_Level 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327945199303454758, guid: a15050bbac301124d86780339ab3be8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8373995542732448880, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Name
