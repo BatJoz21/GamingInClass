@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Grade 3
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,15 +329,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Grade 3
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityProject\GamingInClass\GamingInClass
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 89.400024}
-    m_SelectedIDs: 905a0000
-    m_LastClickedID: 23184
+    m_SelectedIDs: 785a0000
+    m_LastClickedID: 23160
     m_ExpandedIDs: 00000000765a0000785a00007a5a00008e5a0000905a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f6830000
+      m_SelectedIDs: ae5a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 08a6ffff04aeffff38b2ffffd0b4ffff9ab7ffffb8b8ffffb0baffff68bbffff20bcffff1ebeffff64c0ffffc0c2ffffaac4ffff4ccbfffffad5ffffe2d8ffff2edcffff66deffffe0e0ffffb0e2ffff94e4ffff94e6ffff42e8ffff1eeaffff16f9ffff2cfbffffbe5a0000d25a0000085b00008e5d0000cc5d0000006100002e6100003e6100003c6300006a6300007a63000096660000c4660000d4660000fa660000f06900001e6a00002e6a0000546a0000946d0000da7100001c720000aa820000be820000f482000036830000ea840000fa8400002085000016880000548800009e8b0000ae8b0000d48b0000088f000062970000a4970000c69a0000129b0000
+      m_ExpandedIDs: 328dffff7aa7ffff56a8ffffbca9fffffeabffffbcacffff80adffffcaafffff06b2ffff56b4ffffa4b6ffff8cb8ffffd2baffff8abbffff02beffffbabeffff7ec0ffff36c1ffffeec1ffffa6c2ffff7ac3ffff32c4ffff52c6ffffbec8ffff9cd1ffff10d4ffffaed5ffff68d7fffffed8ffff6cdaffff84dcffff3adefffff6deffff0ee6ffff16f4ffffcef4ffff2cfbffffdc590000285c00003c5c0000725c0000b45c0000f25e0000285f00006a5f00001a62000040620000886200009c620000ac620000d2620000746500009a650000f6650000066600002c660000b0670000d6670000326800004268000068680000ec690000126a00006e6a00007e6a0000a46a0000286c00004e6c0000aa6c0000ba6c0000e06c0000826f0000a86f000004700000147000003a700000ba710000fc7100005072000086720000c87200005a74000080740000dc740000ec74000012750000d2780000f878000054790000647900008a790000c2810000e881000044820000548200007a8200001c850000428500009e850000ae850000d4850000b28a0000d88a0000348b0000448b00006a8b0000c68f0000ec8f00001a90000048900000589000007e9000003e94000064940000c0940000d0940000f694000098970000be9700001a9800002a98000050980000109c0000369c0000929c0000a29c0000c89c0000c4a20000eaa2000046a3000056a300007ca3000038a700007aa70000d8a70000fea70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

@@ -125,4 +125,61 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Grade 2/Science Grade 2/Science_Grade 2_Level 5.unity
     guid: 85a3dddada7fe364996c630a0146e5b5
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Subjects Selection Kelas 3.unity
+    guid: 95c32590a113b2a4e8a947a0cfd63865
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/English Grade 3/Level Selection English Grade 3.unity
+    guid: ea5cea65b65dbb840aa065b3a7972538
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/English Grade 3/English_Grade 3_Level 1.unity
+    guid: 9da643717bdcaff4a82a443fd298a939
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/English Grade 3/English_Grade 3_Level 2.unity
+    guid: 0ac03fa555c5eb644b461e4902b95c1a
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/English Grade 3/English_Grade 3_Level 3.unity
+    guid: 0f612e396726dcd4e844f090e094e1d9
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/English Grade 3/English_Grade 3_Level 4.unity
+    guid: f27c8053e31d73041b0a94f886e67581
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/English Grade 3/English_Grade 3_Level 5.unity
+    guid: e7164ce8a6e84e840aaa37cfe0115640
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Math Grade 3/Level Selection Math Grade 3.unity
+    guid: d81ef30b6e46535488f0f08b9f577169
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Math Grade 3/Math_Grade 3_Level 1.unity
+    guid: 7ace54eb1601c6b4283e9ffd78d8a4f7
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Math Grade 3/Math_Grade 3_Level 2.unity
+    guid: f7f1ac6865780614795d85bb01f3001c
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Math Grade 3/Math_Grade 3_Level 3.unity
+    guid: 900162ab9ca42bd4ab07a625177cdbc1
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Math Grade 3/Math_Grade 3_Level 4.unity
+    guid: de4cabece3525d642ac6f87dcbeca216
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Math Grade 3/Math_Grade 3_Level 5.unity
+    guid: e263d688ccee8ad4188509bb924c3176
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Science Grade 3/Level Selection Science Grade 3.unity
+    guid: 814b8658aced6204ea34063c8fc5ed7e
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Science Grade 3/Science_Grade 3_Level 1.unity
+    guid: 138a981f5eec5184b80c5db1fdeea9fd
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Science Grade 3/Science_Grade 3_Level 2.unity
+    guid: 8368f0a94136cdd408a5bd4c9a5a3dcb
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Science Grade 3/Science_Grade 3_Level 3.unity
+    guid: 695d9cc9c79e97d4c8e26f8a705db5ea
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Science Grade 3/Science_Grade 3_Level 4.unity
+    guid: 6c028239bf4b2cf4ebe46913452c5ebe
+  - enabled: 1
+    path: Assets/Scenes/Grade 3/Science Grade 3/Science_Grade 3_Level 5.unity
+    guid: 6997049bd7e25c54c9cf62cb5ed0d9b2
   m_configObjects: {}
