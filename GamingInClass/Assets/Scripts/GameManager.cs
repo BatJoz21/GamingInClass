@@ -86,15 +86,15 @@ public class GameManager : MonoBehaviour
     {
         if (kelas == 1)
         {
-            math1[level] = nilai;
+            math1[level - 1] = nilai;
         }
         else if (kelas == 2)
         {
-            math2[level] = nilai;
+            math2[level - 1] = nilai;
         }
         else if (kelas == 3)
         {
-            math2[level] = nilai;
+            math2[level - 1] = nilai;
         }
     }
 
@@ -102,15 +102,15 @@ public class GameManager : MonoBehaviour
     {
         if (kelas == 1)
         {
-            eng1[level] = nilai;
+            eng1[level - 1] = nilai;
         }
         else if (kelas == 2)
         {
-            eng2[level] = nilai;
+            eng2[level - 1] = nilai;
         }
         else if (kelas == 3)
         {
-            eng2[level] = nilai;
+            eng2[level - 1] = nilai;
         }
     }
 
@@ -118,15 +118,15 @@ public class GameManager : MonoBehaviour
     {
         if (kelas == 1)
         {
-            sci1[level] = nilai;
+            sci1[level - 1] = nilai;
         }
         else if (kelas == 2)
         {
-            sci2[level] = nilai;
+            sci2[level - 1] = nilai;
         }
         else if (kelas == 3)
         {
-            sci2[level] = nilai;
+            sci2[level - 1] = nilai;
         }
     }
 }

@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 526.9415, y: 50}
+  m_SizeDelta: {x: 620, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &52395298
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (Kelas, Mata Pelajaran)
+  m_text: (Kelas 1 SD, Matematika, Level 3)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3064,8 +3064,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fe3e7c9b5daed4fa8b4c42a2c9ee75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mataPelajaran: 
+  kelas: 0
+  level: 0
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
+  scoreKeeper: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!4 &1679802653
 Transform:
   m_ObjectHideFlags: 0
