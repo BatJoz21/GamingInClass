@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 526.9415, y: 50}
+  m_SizeDelta: {x: 693, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &52395298
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (Kelas, Mata Pelajaran)
+  m_text: (Kelas 1 SD, IPA, Level 2)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3064,8 +3064,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fe3e7c9b5daed4fa8b4c42a2c9ee75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mataPelajaran: IPA
+  kelas: 1
+  level: 2
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
+  scoreKeeper: {fileID: 1672215099}
+  gameManager: {fileID: 3289453313224877071}
 --- !u!4 &1679802653
 Transform:
   m_ObjectHideFlags: 0
@@ -3746,6 +3751,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94109c3adb139f14f80d09a949d628ac, type: 3}
+--- !u!114 &3289453313224877071 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2774230869421996322, guid: 94109c3adb139f14f80d09a949d628ac, type: 3}
+  m_PrefabInstance: {fileID: 3289453313224877070}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a61ae80f2b6cab4d992ed9457d4ceee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8817503768200130657
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -3064,13 +3064,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fe3e7c9b5daed4fa8b4c42a2c9ee75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mataPelajaran: 
-  kelas: 0
-  level: 0
+  mataPelajaran: Matematika
+  kelas: 1
+  level: 4
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
-  scoreKeeper: {fileID: 0}
-  gameManager: {fileID: 0}
+  scoreKeeper: {fileID: 1672215099}
+  gameManager: {fileID: 3289453313224877071}
 --- !u!4 &1679802653
 Transform:
   m_ObjectHideFlags: 0
@@ -3751,6 +3751,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94109c3adb139f14f80d09a949d628ac, type: 3}
+--- !u!114 &3289453313224877071 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2774230869421996322, guid: 94109c3adb139f14f80d09a949d628ac, type: 3}
+  m_PrefabInstance: {fileID: 3289453313224877070}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a61ae80f2b6cab4d992ed9457d4ceee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8817503768200130657
 PrefabInstance:
   m_ObjectHideFlags: 0

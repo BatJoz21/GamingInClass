@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 41
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 43
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityProject\GamingInClass\GamingInClass
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 61.400024}
-    m_SelectedIDs: 4e5a0000
-    m_LastClickedID: 23118
-    m_ExpandedIDs: 000000004e5a0000505a0000525a000000ca9a3b
+    scrollPos: {x: 0, y: 89.400024}
+    m_SelectedIDs: 105b0000
+    m_LastClickedID: 23312
+    m_ExpandedIDs: 000000000e5b0000105b0000125b0000285b00002a5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e5a0000505a0000525a0000
+    m_ExpandedIDs: 000000000e5b0000105b0000125b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 605a0000
+      m_SelectedIDs: 3a5b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1883ffff8883ffff4284ffffe085ffff9686ffffba88ffff2a89ffff8a8affff888dfffff88dffff588fffff4690fffffe90ffffb691ffff4c98ffffa499ffffba9affff82b9ffff32c0ffff82c0ffff86c6ffff94c8ffff52c9ffff1ecaffff10ccffff3ecdffff70ceffff9acfffffc0d0ffff34d9ffff7adaffffb8dbfffffadcffff42defffff2dfffff30e1ffff6af9ffff2cfbffff72610000046200001e620000ce6300007a6400000c660000b86600004a680000f6680000886a0000346b0000706d00001c720000c872000058740000047500009476000040770000d07800007c790000a890000050970000749700005c980000249a0000
+      m_ExpandedIDs: cc3affff343cffff383efffff43fffffb041fffff043ffffb044ffff1a46ffff7847ffffde48ffff564affffee4bffffa44dffff5a4effff2e4fffffe050ffffb051ffffb052ffff6454ffffc255ffffe257ffffce58ffff545affffc45cffff6c5effff1c60ffff5862ffff4664ffffa665ffff1867ffff7c68ffff3869fffff66affff746cffff3a6dfffff06dffff0070ffff2a72ffffe873ffffbc75ffff6c77ffff2e79ffff907bffff967cffff567dffffde7effff947fffff4881ffff0883ffff9e85ffff2c88ffff9e89ffff5c8affffce8bffff228effffb890ffff1c92ffffd292ffff0a94ffffc295ffff2a97ffffe497ffffde9cffffd69dffff5a9fffff9ea0ffffeaa1ffff36a3ffff8ea4ffff9aa5ffff04a7ffff4ca8fffff4a8ffff6caaffffbcabffff4eadffff12afffffd8b0ffff90b2ffff48b4ffff46b7ffff3eb8ffff14b9ffff8cbaffff40bbffff84bcffffccbdffff14bfffffa6c0ffff2ec2ffff72c3ffff1ac4ffff62c5ffffaac6ffff3ec8ffff94c9ffff3ccaffff88cbffffd0ccffff2cceffff0ccfffffd8d0ffff62d3ffff46d4fffff0d4ffff4ed6ffff96d7ffffded8ffff3cdaffff2edbffff6edcffff98ddffffdcdeffff06e0ffffe2e0ffffb8e1ffff04e3ffff54e4ffffa0e5ffffcee6ffffb6e7ffffdee8ffff66ebffffa8ecffff12eefffffceeffffaeefffffd6f0ffffd2f1ffffccf2fffff0f3ffff2ef5ffff5af6ffff90f7ffff80f8ffff2cfbffff44c3000082c30000f6c8000034c9000054cc000092cc0000b2cf0000f0cf00004ed30000e6f20000faf800004ef90000a6f900003afb0000e6fb00009afe000046ff0000e6040100660901002e1301008613010006180100861c0100e61f010066240100c62701008e280100e6280100662d0100c630010026340100863701003a3a01008e3a0100e63a0100ee3d0100463e0100e64301007a45010026460100fa490100a64a0100ba5001000e510100665101001a540100c65401007a57010026580100da5a0100865b0100e65e01006e660100c66601007a690100266a0100ba6b0100666c01001a6f0100c66f01003a700100e67001005a71010006720100ba74010066750100fa760100a67701005a7a0100ae7a0100067b01009a7c0100467d0100da7e0100867f01001a810100c6810100068401000e870100668701004e890100a68901008e8b0100e68b0100468f0100a6920100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1060,7 +1060,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
