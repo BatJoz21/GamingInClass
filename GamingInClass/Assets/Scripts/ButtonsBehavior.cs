@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsBehavior : MonoBehaviour
 {
-    [SerializeField] private GameObject options;
+    private Options options;
+
+    void Awake()
+    {
+        options = FindObjectOfType<Options>();
+    }
 
     public void ChangeScene(string sceneName)
     {
@@ -19,11 +24,6 @@ public class ButtonsBehavior : MonoBehaviour
 
     public void OpenOptions()
     {
-        options.SetActive(true);
-    }
-
-    public void ExitOptions()
-    {
-        options.SetActive(false);
+        options.OpeningOptions();
     }
 }

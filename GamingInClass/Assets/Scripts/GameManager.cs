@@ -21,6 +21,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int[] sci3;
 
     //Get Nilai
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     public int GetMathGrade(int kelas, int level)
     {
         if (kelas == 1)

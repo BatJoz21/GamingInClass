@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class QuizManager : MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private GameManager gameManager;
 
     private int finalScore;
+
+    void Awake()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
 
     void Start()
     {
