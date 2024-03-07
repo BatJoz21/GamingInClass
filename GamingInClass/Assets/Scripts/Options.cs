@@ -1,9 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Options : MonoBehaviour
 {
+    [SerializeField] private GameObject optionPanel;
+    [SerializeField] private Toggle muteToogle;
+    [SerializeField] private Slider sliderBGM;
+    [SerializeField] private Slider sliderSFX;
+    [SerializeField] private TextMeshProUGUI bgmVolText;
+    [SerializeField] private TextMeshProUGUI sfxVolText;
+
+    private AudioManager audioManager;
+
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -11,17 +22,26 @@ public class Options : MonoBehaviour
 
     void Start()
     {
-        this.gameObject.SetActive(true);
-        this.gameObject.SetActive(false);
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
-    public void OpeningOptions()
+    void Update()
     {
-        this.gameObject.SetActive(true);
+        GetVolumeTxt();
+        GetVolumeSlider();
     }
 
-    public void ExitingOptions()
+    public void GetVolumeTxt()
     {
-        this.gameObject.SetActive(false);
+        string bgmVol = audioManager.GetBGMVol().ToString();
+        string sfxVol = audioManager.GetSFXVol().ToString();
+        bgmVolText.text = bgmVol;
+        sfxVolText.text = sfxVol;
+    }
+
+    public void GetVolumeSlider()
+    {
+        sliderBGM.value = audioManager.GetBGMVol() / 100;
+        sliderSFX.value = audioManager.GetSFXVol() / 100;
     }
 }
