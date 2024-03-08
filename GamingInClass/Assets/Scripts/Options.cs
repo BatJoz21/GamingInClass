@@ -23,12 +23,12 @@ public class Options : MonoBehaviour
     void Start()
     {
         audioManager = FindObjectOfType<AudioManager>();
+        GetVolumeSlider();
     }
 
     void Update()
     {
         GetVolumeTxt();
-        GetVolumeSlider();
     }
 
     public void GetVolumeTxt()
@@ -43,5 +43,40 @@ public class Options : MonoBehaviour
     {
         sliderBGM.value = audioManager.GetBGMVol() / 100;
         sliderSFX.value = audioManager.GetSFXVol() / 100;
+    }
+
+    public void SetMuteToggle()
+    {
+        bool con = muteToogle.isOn;
+        if (con)
+        {
+            audioManager.SetMute(true);
+        }
+        else
+        {
+            audioManager.SetMute(false);
+        }
+    }
+
+    public void SetUpBGM()
+    {
+        float sliderVal = sliderBGM.value;
+        audioManager.SetVolumeBGM(sliderVal);
+    }
+
+    public void SetUpSFX()
+    {
+        float sliderVal = sliderSFX.value;
+        audioManager.SetVolumeSFX(sliderVal);
+    }
+
+    public void OpenOptionPanel()
+    {
+        optionPanel.SetActive(true);
+    }
+
+    public void CloseOptionPanel()
+    {
+        optionPanel.SetActive(false);
     }
 }

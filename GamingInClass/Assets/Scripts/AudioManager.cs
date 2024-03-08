@@ -19,20 +19,20 @@ public class AudioManager : MonoBehaviour
         options = FindObjectOfType<Options>();
     }
 
-    public void SetMute(bool mute)
+    public void SetMute(bool val)
     {
-        bgm.mute = mute;
-        sfx.mute = mute;
+        bgm.mute = val;
+        sfx.mute = val;
     }
 
-    public void SetVolumeBGM(int vol)
+    public void SetVolumeBGM(float vol)
     {
-        bgm.volume = vol / 100;
+        bgm.volume = vol;
     }
 
-    public void SetVolumeSFX(int vol)
+    public void SetVolumeSFX(float vol)
     {
-        sfx.volume = vol / 100;
+        sfx.volume = vol;
     }
 
     public int GetBGMVol()
