@@ -182,4 +182,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Grade 3/Science Grade 3/Science_Grade 3_Level 5.unity
     guid: 6997049bd7e25c54c9cf62cb5ed0d9b2
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3114f0ef03a21da4fa334589d218d283
   m_configObjects: {}
