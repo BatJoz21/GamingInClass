@@ -20,11 +20,28 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int[] eng3;
     [SerializeField] private int[] sci3;
 
+    private static GameManager instance;
+
     //Get Nilai
 
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        ManageGameInstance();
+        //DontDestroyOnLoad(this.gameObject);
+    }
+
+    private void ManageGameInstance()
+    {
+        if (instance != null)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     public int GetMathGrade(int kelas, int level)

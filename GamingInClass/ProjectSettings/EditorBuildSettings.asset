@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/User Selection.unity
+    guid: 43939b1b92c912844b024ab0da866048
+  - enabled: 1
+    path: Assets/Scenes/Admin/Admin Main Menu.unity
+    guid: 3551b6124457b0e4eb6b02be45a796c5
+  - enabled: 1
+    path: Assets/Scenes/Admin/Admin Kelas 1/Admin Kelas 1.unity
+    guid: f24401b19f1971d41bf125aef356428c
+  - enabled: 1
+    path: Assets/Scenes/Admin/Admin Kelas 2/Admin Kelas 2.unity
+    guid: 8987d28b0eb3e3344b1dc3d2912d9ced
+  - enabled: 1
+    path: Assets/Scenes/Admin/Admin Kelas 3/Admin Kelas 3.unity
+    guid: aa230919302bd644cacee084c0e79797
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: e81ca4bd888dd4346b2432b6a33f4c15
   - enabled: 1

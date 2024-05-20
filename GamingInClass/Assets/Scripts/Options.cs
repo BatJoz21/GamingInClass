@@ -14,10 +14,12 @@ public class Options : MonoBehaviour
     [SerializeField] private TextMeshProUGUI sfxVolText;
 
     private AudioManager audioManager;
+    private static AudioManager instance;
 
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        ManageOptions();
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     void Start()
@@ -29,6 +31,20 @@ public class Options : MonoBehaviour
     void Update()
     {
         GetVolumeTxt();
+    }
+
+    private void ManageOptions()
+    {
+        if (instance != null)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            //instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     public void GetVolumeTxt()
