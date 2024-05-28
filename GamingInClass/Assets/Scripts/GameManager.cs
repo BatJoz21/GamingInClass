@@ -22,8 +22,6 @@ public class GameManager : MonoBehaviour
 
     private static GameManager instance;
 
-    //Get Nilai
-
     void Awake()
     {
         ManageGameInstance();
@@ -43,6 +41,8 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
+
+    //Get Nilai
 
     public int GetMathGrade(int kelas, int level)
     {

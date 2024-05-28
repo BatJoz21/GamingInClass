@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class ButtonsBehavior : MonoBehaviour
 {
     [SerializeField] private Options optionCanvas;
+    [SerializeField] private AdminScript adm;
 
     void Awake()
     {
         optionCanvas = FindObjectOfType<Options>();
+        adm = FindObjectOfType<AdminScript>();
     }
 
     public void ChangeScene(string sceneName)
@@ -19,7 +21,18 @@ public class ButtonsBehavior : MonoBehaviour
 
     public void OpenOptionPanel()
     {
-        optionCanvas.OpenOptionPanel();
+        if (optionCanvas != null)
+        {
+            optionCanvas.OpenOptionPanel();
+        }
+    }
+
+    public void OpenAdminLogin()
+    {
+        if (adm != null)
+        {
+            adm.ActivatePanel();
+        }
     }
 
     public void ExitGame()

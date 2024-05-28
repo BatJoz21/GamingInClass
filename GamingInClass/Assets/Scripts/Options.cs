@@ -18,8 +18,8 @@ public class Options : MonoBehaviour
 
     void Awake()
     {
-        ManageOptions();
-        //DontDestroyOnLoad(this.gameObject);
+        //ManageOptions();
+        DontDestroyOnLoad(this.gameObject);
     }
 
     void Start()
