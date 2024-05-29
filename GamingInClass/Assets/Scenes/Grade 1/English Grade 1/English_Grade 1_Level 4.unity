@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   answeringTime: 120
-  showAnswerTime: 10
+  showAnswerTime: 4
   isAnsweringQuestion: 0
   fillFraction: 0
   loadNextQuestion: 0
@@ -3036,7 +3036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mataPelajaran: Bahasa Inggris
   kelas: 1
-  level: 1
+  level: 4
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
   scoreKeeper: {fileID: 1672215099}
@@ -3175,16 +3175,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionText: {fileID: 468080121}
   questions:
-  - {fileID: 11400000, guid: ccbdfb8a080e6a04f8978b21deb86b8a, type: 2}
-  - {fileID: 11400000, guid: 3986199a0662a714087066223a227a4d, type: 2}
-  - {fileID: 11400000, guid: 7a8c156c582784b4c80b298a4ac930b2, type: 2}
-  - {fileID: 11400000, guid: b21bb1b9c4d3b844ca2c6f6c4e48ce1f, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
+  - {fileID: 11400000, guid: 25042e7414d215a4c95836c51fcf2f9f, type: 2}
+  - {fileID: 11400000, guid: e54d3b6b07474fc478353d87051be1c9, type: 2}
+  - {fileID: 11400000, guid: 7d334fcd12e42bc41b182205db6af9e5, type: 2}
+  - {fileID: 11400000, guid: cf7a0e4ab2717e64aa4465fb3719de24, type: 2}
+  - {fileID: 11400000, guid: 6020ea60423af0b479b7b12f5150847a, type: 2}
+  - {fileID: 11400000, guid: b38d03d7b87af754cb00d7581aaeb5d1, type: 2}
+  - {fileID: 11400000, guid: 94df1e06d8f0244409b0bae3b8fa8c9c, type: 2}
+  - {fileID: 11400000, guid: aa308c32c217cd142a96bda61caa90e0, type: 2}
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}

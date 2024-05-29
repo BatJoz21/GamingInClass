@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   answeringTime: 120
-  showAnswerTime: 10
+  showAnswerTime: 4
   isAnsweringQuestion: 0
   fillFraction: 0
   loadNextQuestion: 0
@@ -3175,16 +3175,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionText: {fileID: 468080121}
   questions:
-  - {fileID: 11400000, guid: ccbdfb8a080e6a04f8978b21deb86b8a, type: 2}
-  - {fileID: 11400000, guid: 3986199a0662a714087066223a227a4d, type: 2}
-  - {fileID: 11400000, guid: 7a8c156c582784b4c80b298a4ac930b2, type: 2}
-  - {fileID: 11400000, guid: b21bb1b9c4d3b844ca2c6f6c4e48ce1f, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
+  - {fileID: 11400000, guid: ee757117236832947a8a80f97c790880, type: 2}
+  - {fileID: 11400000, guid: 20c7773add9dea04f934a7e1f3e7f7d2, type: 2}
+  - {fileID: 11400000, guid: 3650b193e91e948459bc48a4605357fd, type: 2}
+  - {fileID: 11400000, guid: 0046d074521af8e4f9201e68a58f373d, type: 2}
+  - {fileID: 11400000, guid: 7aca0dd1b3bfd0d47ab246dfcee3b9d5, type: 2}
+  - {fileID: 11400000, guid: d7a335b1470035c49b8430e1a2f785cd, type: 2}
+  - {fileID: 11400000, guid: 5fa9bb2af806e0b438daae7b80e6601c, type: 2}
+  - {fileID: 11400000, guid: 659fffeea8bf3c54a9d8d695c2141e7b, type: 2}
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}
