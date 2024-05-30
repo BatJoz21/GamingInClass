@@ -8,6 +8,7 @@ public class Quiz : MonoBehaviour
 {
     [Header("Questions")]
     [SerializeField] private TextMeshProUGUI questionText;
+    [SerializeField] private Image questionImage;
     [SerializeField] private List<QuestionSO> questions = new List<QuestionSO>();
     private QuestionSO currentQuestion;
     
@@ -66,6 +67,7 @@ public class Quiz : MonoBehaviour
     private void DisplayQuestion()
     {
         questionText.text = currentQuestion.GetQuestion();
+        questionImage.sprite = currentQuestion.GetQuestionImage();
 
         for (int i = 0; i < answerButtons.Length; i++)
         {
