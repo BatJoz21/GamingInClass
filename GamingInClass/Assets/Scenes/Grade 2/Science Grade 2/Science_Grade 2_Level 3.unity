@@ -760,6 +760,82 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5370462234019894574, guid: c5bfb6982777b9f4e946aaf0c5b985fe, type: 3}
   m_PrefabInstance: {fileID: 577935527}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &639981187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 639981188}
+  - component: {fileID: 639981190}
+  - component: {fileID: 639981189}
+  m_Layer: 5
+  m_Name: QuestionImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &639981188
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639981187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1003160055}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 200}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &639981189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639981187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &639981190
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639981187}
+  m_CullTransparentMesh: 1
 --- !u!1 &647440255
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   answeringTime: 120
-  showAnswerTime: 10
+  showAnswerTime: 4
   isAnsweringQuestion: 0
   fillFraction: 0
   loadNextQuestion: 0
@@ -2362,6 +2438,7 @@ RectTransform:
   m_Children:
   - {fileID: 1193472124}
   - {fileID: 468080120}
+  - {fileID: 639981188}
   - {fileID: 575121230}
   - {fileID: 803232920}
   - {fileID: 971001379}
@@ -2964,7 +3041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mataPelajaran: IPA
   kelas: 2
-  level: 1
+  level: 3
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
   scoreKeeper: {fileID: 1672215099}
@@ -3174,23 +3251,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 468080121}
+  questionImage: {fileID: 639981189}
   questions:
-  - {fileID: 11400000, guid: ccbdfb8a080e6a04f8978b21deb86b8a, type: 2}
-  - {fileID: 11400000, guid: 3986199a0662a714087066223a227a4d, type: 2}
-  - {fileID: 11400000, guid: 7a8c156c582784b4c80b298a4ac930b2, type: 2}
-  - {fileID: 11400000, guid: b21bb1b9c4d3b844ca2c6f6c4e48ce1f, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
-  - {fileID: 11400000, guid: e3f6d74b32a078445b9a35701abd8217, type: 2}
+  - {fileID: 11400000, guid: 591dd2500be199b418f4b633e79e87c2, type: 2}
+  - {fileID: 11400000, guid: 14bb1aadac05e854c8d23ee5dfaa0492, type: 2}
+  - {fileID: 11400000, guid: 33051945d3f286545a6b7c598daa5d4d, type: 2}
+  - {fileID: 11400000, guid: e98b723efee6e8446afa0f275b50276e, type: 2}
+  - {fileID: 11400000, guid: 6e6d00137b0a4304c9ea7fce4d317369, type: 2}
+  - {fileID: 11400000, guid: bce78c01ae44eef41ae634391b7837f2, type: 2}
+  - {fileID: 11400000, guid: 7fedda6d661f54341940432130beb03f, type: 2}
+  - {fileID: 11400000, guid: 949a1a46668d14a4b9a15b5b81dbee1e, type: 2}
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}
   - {fileID: 820262497}
   defaultAnswerSprite: {fileID: 21300000, guid: 26464b2fc31654846a7607e9873dc5bd, type: 3}
-  correctAnswerSprite: {fileID: 0}
+  correctAnswerSprite: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
   timerImage: {fileID: 803232921}
   scoreText: {fileID: 971001380}
   progressBar: {fileID: 1801310922}
