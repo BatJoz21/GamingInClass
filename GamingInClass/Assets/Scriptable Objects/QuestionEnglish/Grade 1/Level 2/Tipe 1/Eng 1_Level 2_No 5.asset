@@ -16,6 +16,7 @@ MonoBehaviour:
 
 
     Halo, selamat pagi anak-anak! = ...'
+  questionImage: {fileID: 21300000, guid: e1b958556ba704c4396bf1d3d2b555b6, type: 3}
   answers:
   - Hello, good afternoon student!
   - Hello, good morning student!

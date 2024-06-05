@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Math 1_Level 3_No 5
   m_EditorClassIdentifier: 
   question: Berapa banyak bola pada gambar?
-  questionImage: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
+  questionImage: {fileID: 21300000, guid: 25abb6774a623ee43920e105d9caa1b6, type: 3}
   answers:
   - 3
   - 5

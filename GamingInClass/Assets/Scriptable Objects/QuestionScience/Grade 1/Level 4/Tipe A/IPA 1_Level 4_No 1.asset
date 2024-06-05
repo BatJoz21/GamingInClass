@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IPA 1_Level 4_No 1
   m_EditorClassIdentifier: 
   question: Gambar tersebut adalah ...
-  questionImage: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
+  questionImage: {fileID: 21300000, guid: 6146e98ae832c124dbe394fa26a9d25b, type: 3}
   answers:
   - matahari
   - bulan
