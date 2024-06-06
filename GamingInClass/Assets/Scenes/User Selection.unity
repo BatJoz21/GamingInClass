@@ -3546,7 +3546,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 972009735930751369, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972009735930751369, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972009735930751369, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1559501026534585564, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
@@ -3754,12 +3762,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7012628295844139284, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7012628295844139284, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7458416100434131011, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
       propertyPath: m_Name
       value: Options Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458416100434131011, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8378309910576569864, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
       propertyPath: m_IsActive
@@ -3779,6 +3795,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464015244407591647, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749528048638775195, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}
+      propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9000006444560513173, guid: 8f2b94b15d6ff2249b48ac882e85ca10, type: 3}

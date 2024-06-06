@@ -20,12 +20,27 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int[] eng3;
     [SerializeField] private int[] sci3;
 
+    [SerializeField] private int questionTypeEnglish = 0;
+    [SerializeField] private int questionTypeMath = 0;
+    [SerializeField] private int questionTypeScience = 0;
+
     private static GameManager instance;
+    private ChangeQuestionType changeQuestionType;
+
+    public int QuestionTypeEnglish { get => questionTypeEnglish; }
+    public int QuestionTypeMath { get => questionTypeMath; }
+    public int QuestionTypeScience { get => questionTypeScience; }
 
     void Awake()
     {
         ManageGameInstance();
-        //DontDestroyOnLoad(this.gameObject);
+    }
+
+    void Update()
+    {
+        questionTypeEnglish = changeQuestionType.QuestionTipeEnglish;
+        questionTypeMath = changeQuestionType.QuestionTipeMath;
+        questionTypeScience = changeQuestionType.QuestionTipeScience;
     }
 
     private void ManageGameInstance()

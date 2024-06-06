@@ -5,7 +5,9 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] private AudioSource bgm;
-    [SerializeField] private AudioSource sfx;
+    [SerializeField] private AudioSource sfxCorrectAnswer;
+    [SerializeField] private AudioSource sfxWrongAnswer;
+    [SerializeField] private AudioSource sfxLevelComplete;
 
     private Options options;
     private static AudioManager instance;
@@ -19,7 +21,6 @@ public class AudioManager : MonoBehaviour
     {
         options = FindObjectOfType<Options>();
     }
-
 
     private void ManageAudioManager()
     {
@@ -35,10 +36,28 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void PlaySFX(string val)
+    {
+        if (val == "Correct")
+        {
+            sfxCorrectAnswer.Play();
+        }
+        else if (val == "Wrong")
+        {
+            sfxWrongAnswer.Play();
+        }
+        else if (val == "Complete")
+        {
+            sfxLevelComplete.Play();
+        }
+    }
+
     public void SetMute(bool val)
     {
         bgm.mute = val;
-        sfx.mute = val;
+        sfxCorrectAnswer.mute = val;
+        sfxWrongAnswer.mute = val;
+        sfxLevelComplete.mute = val;
     }
 
     public void SetVolumeBGM(float vol)
@@ -48,16 +67,18 @@ public class AudioManager : MonoBehaviour
 
     public void SetVolumeSFX(float vol)
     {
-        sfx.volume = vol;
+        sfxCorrectAnswer.volume = vol;
+        sfxWrongAnswer.volume = vol;
+        sfxLevelComplete.volume = vol;
     }
 
-    public int GetBGMVol()
+    public float GetBGMVol()
     {
-        return Mathf.RoundToInt(bgm.volume * 100);
+        return bgm.volume;
     }
 
-    public int GetSFXVol()
+    public float GetSFXVol()
     {
-        return Mathf.RoundToInt(sfx.volume * 100);
+        return sfxCorrectAnswer.volume;
     }
 }

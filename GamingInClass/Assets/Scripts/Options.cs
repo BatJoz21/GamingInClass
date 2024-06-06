@@ -48,16 +48,19 @@ public class Options : MonoBehaviour
 
     public void GetVolumeTxt()
     {
-        string bgmVol = audioManager.GetBGMVol().ToString();
-        string sfxVol = audioManager.GetSFXVol().ToString();
+        float temp1 = audioManager.GetBGMVol() * 100;
+        float temp2 = audioManager.GetSFXVol() * 100;
+
+        string bgmVol = temp1.ToString();
+        string sfxVol = temp2.ToString();
         bgmVolText.text = bgmVol;
         sfxVolText.text = sfxVol;
     }
 
     public void GetVolumeSlider()
     {
-        sliderBGM.value = audioManager.GetBGMVol() / 100;
-        sliderSFX.value = audioManager.GetSFXVol() / 100;
+        sliderBGM.value = audioManager.GetBGMVol();
+        sliderSFX.value = audioManager.GetSFXVol();
     }
 
     public void SetMuteToggle()

@@ -10,6 +10,8 @@ public class Quiz : MonoBehaviour
     [SerializeField] private TextMeshProUGUI questionText;
     [SerializeField] private Image questionImage;
     [SerializeField] private List<QuestionSO> questions = new List<QuestionSO>();
+    [SerializeField] private List<QuestionSO> questionsA = new List<QuestionSO>();
+    [SerializeField] private List<QuestionSO> questionsB = new List<QuestionSO>();
     private QuestionSO currentQuestion;
     
     [Header("Answer")]
@@ -33,13 +35,44 @@ public class Quiz : MonoBehaviour
     [SerializeField] private Slider progressBar;
 
     public bool isComplete;
+    private GameManager gameManager;
+    private AudioManager audioManager;
 
     void Awake()
     {
         timer = FindObjectOfType<Timer>();
         scoreKeeper = FindObjectOfType<Scorekeeper>();
+        gameManager = FindObjectOfType<GameManager>();
+        audioManager = FindObjectOfType<AudioManager>();
         progressBar.maxValue = questions.Count;
         progressBar.value = 0;
+    }
+
+    void Start()
+    {
+        /*
+        if (gameManager.QuestionType == 0)
+        {
+            for (int i = 0; i <= 8; i++)
+            {
+                questions[i] = questionsA[i];
+            }
+        }
+        else if (gameManager.QuestionType == 1)
+        {
+            for (int i = 0; i <= 8; i++)
+            {
+                questions[i] = questionsB[i];
+            }
+        }
+        else
+        {
+            for (int i = 0; i <= 8; i++)
+            {
+                questions[i] = questionsA[i];
+            }
+        }
+        */
     }
 
     void Update()
@@ -120,6 +153,7 @@ public class Quiz : MonoBehaviour
             questionText.text += "\n Jawaban anda benar!";
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            audioManager.PlaySFX("Correct");
             scoreKeeper.IncrementCorrectAnswer();
         }
         else
@@ -129,6 +163,7 @@ public class Quiz : MonoBehaviour
             questionText.text += "\n Jawaban anda salah! Jawaban yang benar adalah " + correctAnswer;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            audioManager.PlaySFX("Wrong");
         }
     }
 

@@ -14,10 +14,12 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private GameManager gameManager;
 
     private int finalScore;
+    private AudioManager audioManager;
 
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     void Start()
@@ -30,6 +32,7 @@ public class QuizManager : MonoBehaviour
     {
         if (quiz.isComplete)
         {
+            audioManager.PlaySFX("Complete");
             quiz.gameObject.SetActive(false);
             endScreen.gameObject.SetActive(true);
             endScreen.ShowFinalScore();
