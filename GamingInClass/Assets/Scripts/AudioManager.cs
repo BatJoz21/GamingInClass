@@ -8,15 +8,31 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sfx;
 
     private Options options;
+    private static AudioManager instance;
 
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        ManageAudioManager();
     }
 
     void Start()
     {
         options = FindObjectOfType<Options>();
+    }
+
+
+    private void ManageAudioManager()
+    {
+        if (instance != null)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     public void SetMute(bool val)

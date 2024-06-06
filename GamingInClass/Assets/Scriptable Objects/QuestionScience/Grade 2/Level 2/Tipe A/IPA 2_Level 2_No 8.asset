@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IPA 2_Level 2_No 8
   m_EditorClassIdentifier: 
   question: Benda tersebut termasuk benda ...
-  questionImage: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
+  questionImage: {fileID: 21300000, guid: 9fc456bd39ce3e946812356cf97f84eb, type: 3}
   answers:
   - benda padat
   - benda cair

@@ -14,12 +14,11 @@ public class Options : MonoBehaviour
     [SerializeField] private TextMeshProUGUI sfxVolText;
 
     private AudioManager audioManager;
-    private static AudioManager instance;
+    private static Options instance;
 
     void Awake()
     {
-        //ManageOptions();
-        DontDestroyOnLoad(this.gameObject);
+        ManageOptions();
     }
 
     void Start()
@@ -42,7 +41,7 @@ public class Options : MonoBehaviour
         }
         else
         {
-            //instance = this;
+            instance = this;
             DontDestroyOnLoad(gameObject);
         }
     }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: English 2_Level 4_No 6
   m_EditorClassIdentifier: 
   question: What is this animal?
-  questionImage: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
+  questionImage: {fileID: 21300000, guid: 8d404ea4f4d90c24f804f063b562a7b5, type: 3}
   answers:
   - Fish
   - Tiger

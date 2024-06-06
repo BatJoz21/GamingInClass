@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: English 2_Level 3_No 2
   m_EditorClassIdentifier: 
   question: What number is this?
-  questionImage: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
+  questionImage: {fileID: 21300000, guid: 477e09e7ddce44845a769e3dcc6bb1c9, type: 3}
   answers:
   - Eleven
   - Fourteen

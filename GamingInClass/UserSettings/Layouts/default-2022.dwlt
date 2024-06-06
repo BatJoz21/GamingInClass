@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 277.6
     height: 435.2
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -335,10 +335,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 745e0000
-    m_LastClickedID: 24180
-    m_ExpandedIDs: 000000008c1e0000745e0000845e0000885e00008a5e0000ca5e0000cc5e0000d05e0000d85e0000da5e0000dc5e0000de5e00004a5f00003e7d0000467d0000487d00004a7d00004c7d000000ca9a3b
+    scrollPos: {x: 0, y: 41.400024}
+    m_SelectedIDs: a25d0000
+    m_LastClickedID: 23970
+    m_ExpandedIDs: 00000000a25d0000b65d0000be5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000745e0000
+    m_ExpandedIDs: 00000000a25d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,8 +393,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000054630000686300003e650000ca61000000000000da590000d6590000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000054630000686300003e650000ca61000000000000da590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 505e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: f49effffb2a0ffff32c4ffff00c6ffff9ec7ffff4ac9ffff42cbffff2acdffff04d0ffffc6d1ffff8ed4fffff2d8ffff30faffff96640000d0640000106800004a680000526a0000946a0000d46e0000046f0000307100006871000090740000de7600001c790000ac830000e4830000
+      m_ExpandedIDs: a2caffffb8d9ffffe0dbffffcaddfffffae3ffff68e5ffff18e6ffff8ee7ffff70e8ffff7ee9ffffdaf4ffff50f8ffff2cfbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
