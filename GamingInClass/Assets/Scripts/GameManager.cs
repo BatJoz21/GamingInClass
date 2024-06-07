@@ -6,41 +6,56 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [Header("Kelas 1")]
+    [SerializeField] private int questionTypeEnglish1 = 0;
+    [SerializeField] private int questionTypeMath1 = 0;
+    [SerializeField] private int questionTypeScience1 = 0;
     [SerializeField] private int[] math1;
     [SerializeField] private int[] eng1;
     [SerializeField] private int[] sci1;
 
     [Header("Kelas 2")]
+    [SerializeField] private int questionTypeEnglish2 = 0;
+    [SerializeField] private int questionTypeMath2 = 0;
+    [SerializeField] private int questionTypeScience2 = 0;
     [SerializeField] private int[] math2;
     [SerializeField] private int[] eng2;
     [SerializeField] private int[] sci2;
 
     [Header("Kelas 3")]
+    [SerializeField] private int questionTypeEnglish3 = 0;
+    [SerializeField] private int questionTypeMath3 = 0;
+    [SerializeField] private int questionTypeScience3 = 0;
     [SerializeField] private int[] math3;
     [SerializeField] private int[] eng3;
     [SerializeField] private int[] sci3;
-
-    [SerializeField] private int questionTypeEnglish = 0;
-    [SerializeField] private int questionTypeMath = 0;
-    [SerializeField] private int questionTypeScience = 0;
-
+        
     private static GameManager instance;
     private ChangeQuestionType changeQuestionType;
 
-    public int QuestionTypeEnglish { get => questionTypeEnglish; }
-    public int QuestionTypeMath { get => questionTypeMath; }
-    public int QuestionTypeScience { get => questionTypeScience; }
+    //Grade 1 Encapsulation
+    public int QuestionTypeEnglish1 { get => questionTypeEnglish1; }
+    public int QuestionTypeMath1 { get => questionTypeMath1; }
+    public int QuestionTypeScience1 { get => questionTypeScience1; }
+
+    //Grade 2 Encapsulation
+    public int QuestionTypeEnglish2 { get => questionTypeEnglish2; }
+    public int QuestionTypeMath2 { get => questionTypeMath2; }
+    public int QuestionTypeScience2 { get => questionTypeScience2; }
+
+    //Grade 3 Encapsulation
+    public int QuestionTypeEnglish3 { get => questionTypeEnglish3; }
+    public int QuestionTypeMath3 { get => questionTypeMath3; }
+    public int QuestionTypeScience3 { get => questionTypeScience3; }
 
     void Awake()
     {
         ManageGameInstance();
+        changeQuestionType = FindObjectOfType<ChangeQuestionType>();
     }
 
     void Update()
     {
-        questionTypeEnglish = changeQuestionType.QuestionTipeEnglish;
-        questionTypeMath = changeQuestionType.QuestionTipeMath;
-        questionTypeScience = changeQuestionType.QuestionTipeScience;
+        QuestionTypeSetting();
     }
 
     private void ManageGameInstance()
@@ -54,6 +69,31 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    private void QuestionTypeSetting()
+    {
+        if (changeQuestionType != null)
+        {
+            if (changeQuestionType.questionGrade == 1)
+            {
+                questionTypeEnglish1 = changeQuestionType.QuestionTipeEnglish;
+                questionTypeMath1 = changeQuestionType.QuestionTipeMath;
+                questionTypeScience1 = changeQuestionType.QuestionTipeScience;
+            }
+            else if (changeQuestionType.questionGrade == 2)
+            {
+                questionTypeEnglish2 = changeQuestionType.QuestionTipeEnglish;
+                questionTypeMath2 = changeQuestionType.QuestionTipeMath;
+                questionTypeScience2 = changeQuestionType.QuestionTipeScience;
+            }
+            else if (changeQuestionType.questionGrade == 3)
+            {
+                questionTypeEnglish3 = changeQuestionType.QuestionTipeEnglish;
+                questionTypeMath3 = changeQuestionType.QuestionTipeMath;
+                questionTypeScience3 = changeQuestionType.QuestionTipeScience;
+            }
         }
     }
 
