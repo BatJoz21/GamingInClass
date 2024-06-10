@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a05b790bc600b42aa0e7c25998588a, type: 3}
   m_Name: Eng_Grade 1_No 1 B
   m_EditorClassIdentifier: 
-  question: 
-  questionImage: {fileID: 0}
+  question: What is in the picture?
+  questionImage: {fileID: 21300000, guid: 736fa3c36fbbcf84d8805f57a083ce1b, type: 3}
   answers:
   - Cow
   - Cat

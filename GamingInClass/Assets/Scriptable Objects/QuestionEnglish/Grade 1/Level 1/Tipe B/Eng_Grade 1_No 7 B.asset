@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a05b790bc600b42aa0e7c25998588a, type: 3}
   m_Name: Eng_Grade 1_No 7 B
   m_EditorClassIdentifier: 
-  question: 
-  questionImage: {fileID: 0}
+  question: What is in the picture?
+  questionImage: {fileID: 21300000, guid: 8487afbc1b95fe84aa1e162f55bc5c72, type: 3}
   answers:
   - Water
   - Fire

@@ -3120,6 +3120,15 @@ MonoBehaviour:
   questionText: {fileID: 468080121}
   questionImage: {fileID: 1950415726}
   questions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  questionsA:
   - {fileID: 11400000, guid: cca786244eccb27419687bebb79c3718, type: 2}
   - {fileID: 11400000, guid: d995c5e477fe9fb4d8d72a0086394ea6, type: 2}
   - {fileID: 11400000, guid: c5f616c2b2930ca4c88d021b3947a399, type: 2}
@@ -3128,12 +3137,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e01f1a16800185b479f923cde0aa46fc, type: 2}
   - {fileID: 11400000, guid: 7257543182b2cf544b9aa1ccfd1de2f2, type: 2}
   - {fileID: 11400000, guid: 9247ea1f83331eb49a126687bc17a29b, type: 2}
+  questionsB:
+  - {fileID: 11400000, guid: a2b493e8194cff34d9bee2d92f6de0fd, type: 2}
+  - {fileID: 11400000, guid: 7c66724bbed0f0d4280b76b5e1a18b7c, type: 2}
+  - {fileID: 11400000, guid: 939e4e315d88cb142b599c928f12d818, type: 2}
+  - {fileID: 11400000, guid: 4e19f6103ecdc0b498e1a376168b0d0e, type: 2}
+  - {fileID: 11400000, guid: 3066caf35913a4c4a88e019ccad1282c, type: 2}
+  - {fileID: 11400000, guid: b42b26b3b7aecf84a9a88241ad20fd0a, type: 2}
+  - {fileID: 11400000, guid: a36147dda769c5f4ba0e5f417afd200b, type: 2}
+  - {fileID: 11400000, guid: a34b1410e7132a6438435594f2c8acfd, type: 2}
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}
   - {fileID: 820262497}
   defaultAnswerSprite: {fileID: 21300000, guid: 26464b2fc31654846a7607e9873dc5bd, type: 3}
-  correctAnswerSprite: {fileID: 0}
+  correctAnswerSprite: {fileID: 21300000, guid: 512b5b12271ff4242b57072ea6e3812d, type: 3}
   timerImage: {fileID: 803232921}
   scoreText: {fileID: 971001380}
   progressBar: {fileID: 1801310922}

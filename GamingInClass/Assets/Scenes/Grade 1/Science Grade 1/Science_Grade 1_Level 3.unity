@@ -431,7 +431,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &177764962
 MonoBehaviour:
@@ -3253,6 +3253,15 @@ MonoBehaviour:
   questionText: {fileID: 468080121}
   questionImage: {fileID: 177764962}
   questions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  questionsA:
   - {fileID: 11400000, guid: 4dfc5b675aed1524082d18d795f7c525, type: 2}
   - {fileID: 11400000, guid: 6c83d350161e0db4f8bc03bb9958509d, type: 2}
   - {fileID: 11400000, guid: 3841a6ddc61cfb34ab65ab7c597951c0, type: 2}
@@ -3261,6 +3270,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e656f5ebdca440749bcdf74a94f7dd34, type: 2}
   - {fileID: 11400000, guid: ef33e1245e83f574899bbc175065ff63, type: 2}
   - {fileID: 11400000, guid: e2992719932fd754c8d2f545ab72189c, type: 2}
+  questionsB:
+  - {fileID: 11400000, guid: 80d16e12694446b498fa2b04f168c592, type: 2}
+  - {fileID: 11400000, guid: 8d9c055e740c9fc4082a5d1cac2dc010, type: 2}
+  - {fileID: 11400000, guid: 289ca6081323b6046aad2fdf118343a4, type: 2}
+  - {fileID: 11400000, guid: 977c0ac244305e4488f95c2f0e3a40a4, type: 2}
+  - {fileID: 11400000, guid: 94fe2079e4326f8408dd05a544ca191d, type: 2}
+  - {fileID: 11400000, guid: a68bcbb102c63fa4183f7c9655c7b0f6, type: 2}
+  - {fileID: 11400000, guid: 9632a44937e194647bc105e77f57b083, type: 2}
+  - {fileID: 11400000, guid: 50a4a048802393644a3ee42d0a8e09b4, type: 2}
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}

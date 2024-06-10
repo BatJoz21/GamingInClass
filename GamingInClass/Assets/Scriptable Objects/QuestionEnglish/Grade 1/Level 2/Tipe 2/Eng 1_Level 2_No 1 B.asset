@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Eng 1_Level 2_No 1 B
   m_EditorClassIdentifier: 
   question: The name of the food is ...
-  questionImage: {fileID: 0}
+  questionImage: {fileID: 21300000, guid: 6adb504a60f231549802f06adbbecd32, type: 3}
   answers:
   - Egg
   - Rice
