@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a05b790bc600b42aa0e7c25998588a, type: 3}
   m_Name: IPA 2_Level 2_No 6
   m_EditorClassIdentifier: 
-  question: Benda yang tidak mengikuti bentuk wadahnya adalah ...
+  question: Benda yang mengikuti bentuk wadahnya adalah ...
   questionImage: {fileID: 21300000, guid: e1b958556ba704c4396bf1d3d2b555b6, type: 3}
   answers:
-  - benda padat
   - benda cair
-  - benda gas
+  - benda padat
+  - benda licin
   correctAnswerIndex: 0

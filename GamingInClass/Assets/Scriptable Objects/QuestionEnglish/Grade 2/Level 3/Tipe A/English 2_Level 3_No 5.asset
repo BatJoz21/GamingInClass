@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a05b790bc600b42aa0e7c25998588a, type: 3}
   m_Name: English 2_Level 3_No 5
   m_EditorClassIdentifier: 
-  question: 'English to Bahasa Indonesia!
+  question: 'Bahasa Indonesia to English!
 
 
     Ayah = ...'

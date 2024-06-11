@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a05b790bc600b42aa0e7c25998588a, type: 3}
+  m_Name: English 2_Level 2_No 2 B
+  m_EditorClassIdentifier: 
+  question: 'Bahasa Indonesia to English!
+
+
+    Tangga = ...'
+  questionImage: {fileID: 21300000, guid: e1b958556ba704c4396bf1d3d2b555b6, type: 3}
+  answers:
+  - Table
+  - Ladder
+  - Chair
+  correctAnswerIndex: 1
