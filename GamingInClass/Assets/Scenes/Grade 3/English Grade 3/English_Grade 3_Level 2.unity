@@ -3253,6 +3253,15 @@ MonoBehaviour:
   questionText: {fileID: 468080121}
   questionImage: {fileID: 1303215}
   questions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  questionsA:
   - {fileID: 11400000, guid: 0bfa61e800d2b364a85d6c6a7afa6f52, type: 2}
   - {fileID: 11400000, guid: 6436e464b3832c6408ff3208c420adfc, type: 2}
   - {fileID: 11400000, guid: 0d592cef93a9cbe49bdc214f130c8970, type: 2}
@@ -3261,6 +3270,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 78890304dd828da48a14a773b3644a77, type: 2}
   - {fileID: 11400000, guid: 4a4a51f413c179c48bb6ea50f78ad3df, type: 2}
   - {fileID: 11400000, guid: 5da3f86a639396a44aa912bb21a2cc6b, type: 2}
+  questionsB:
+  - {fileID: 11400000, guid: 4f72df022b50fc9458f8fe9439476051, type: 2}
+  - {fileID: 11400000, guid: 65623aff93afd244486cd3de9c959e83, type: 2}
+  - {fileID: 11400000, guid: 5f76a9a9f8331234c8e42aa8d6c822e7, type: 2}
+  - {fileID: 11400000, guid: 893241a87f7289c409b4a75f8276cd6d, type: 2}
+  - {fileID: 11400000, guid: 0d839d3e7035ee247b16e9248ccc6407, type: 2}
+  - {fileID: 11400000, guid: cc8efca640748be4eb662d5dcfae6f3f, type: 2}
+  - {fileID: 11400000, guid: e99e3a0fa9f88d9428bba4e26d1bd0b0, type: 2}
+  - {fileID: 11400000, guid: 18521406b1fc02d44b09c663aea148b1, type: 2}
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}
