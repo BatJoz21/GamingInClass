@@ -18,7 +18,7 @@ MonoBehaviour:
 
 
 '
-  questionImage: {fileID: 0}
+  questionImage: {fileID: 21300000, guid: 314a3eb5c303ed84e913be9703331b46, type: 3}
   answers:
   - Sister
   - Grandmother
