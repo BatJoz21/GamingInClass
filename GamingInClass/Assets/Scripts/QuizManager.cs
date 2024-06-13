@@ -16,6 +16,10 @@ public class QuizManager : MonoBehaviour
     private int finalScore;
     private AudioManager audioManager;
 
+    public string MataPelajaran { get => mataPelajaran; }
+    public int Kelas { get => kelas; }
+    public int Level { get => level; }
+
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();

@@ -30,32 +30,25 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int[] sci3;
         
     private static GameManager instance;
-    private ChangeQuestionType changeQuestionType;
 
     //Grade 1 Encapsulation
-    public int QuestionTypeEnglish1 { get => questionTypeEnglish1; }
-    public int QuestionTypeMath1 { get => questionTypeMath1; }
-    public int QuestionTypeScience1 { get => questionTypeScience1; }
+    public int QuestionTypeEnglish1 { get => questionTypeEnglish1; set => questionTypeEnglish1 = value; }
+    public int QuestionTypeMath1 { get => questionTypeMath1; set => questionTypeMath1 = value; }
+    public int QuestionTypeScience1 { get => questionTypeScience1; set => questionTypeScience1 = value; }
 
     //Grade 2 Encapsulation
-    public int QuestionTypeEnglish2 { get => questionTypeEnglish2; }
-    public int QuestionTypeMath2 { get => questionTypeMath2; }
-    public int QuestionTypeScience2 { get => questionTypeScience2; }
+    public int QuestionTypeEnglish2 { get => questionTypeEnglish2; set => questionTypeEnglish2 = value; }
+    public int QuestionTypeMath2 { get => questionTypeMath2; set => questionTypeMath2 = value; }
+    public int QuestionTypeScience2 { get => questionTypeScience2; set => questionTypeScience2 = value; }
 
     //Grade 3 Encapsulation
-    public int QuestionTypeEnglish3 { get => questionTypeEnglish3; }
-    public int QuestionTypeMath3 { get => questionTypeMath3; }
-    public int QuestionTypeScience3 { get => questionTypeScience3; }
+    public int QuestionTypeEnglish3 { get => questionTypeEnglish3; set => questionTypeEnglish3 = value; }
+    public int QuestionTypeMath3 { get => questionTypeMath3; set => questionTypeMath3 = value; }
+    public int QuestionTypeScience3 { get => questionTypeScience3; set => questionTypeScience3 = value; }
 
     void Awake()
     {
         ManageGameInstance();
-        changeQuestionType = FindObjectOfType<ChangeQuestionType>();
-    }
-
-    void Update()
-    {
-        QuestionTypeSetting();
     }
 
     private void ManageGameInstance()
@@ -72,33 +65,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void QuestionTypeSetting()
-    {
-        if (changeQuestionType != null)
-        {
-            if (changeQuestionType.questionGrade == 1)
-            {
-                questionTypeEnglish1 = changeQuestionType.QuestionTipeEnglish;
-                questionTypeMath1 = changeQuestionType.QuestionTipeMath;
-                questionTypeScience1 = changeQuestionType.QuestionTipeScience;
-            }
-            else if (changeQuestionType.questionGrade == 2)
-            {
-                questionTypeEnglish2 = changeQuestionType.QuestionTipeEnglish;
-                questionTypeMath2 = changeQuestionType.QuestionTipeMath;
-                questionTypeScience2 = changeQuestionType.QuestionTipeScience;
-            }
-            else if (changeQuestionType.questionGrade == 3)
-            {
-                questionTypeEnglish3 = changeQuestionType.QuestionTipeEnglish;
-                questionTypeMath3 = changeQuestionType.QuestionTipeMath;
-                questionTypeScience3 = changeQuestionType.QuestionTipeScience;
-            }
-        }
-    }
-
     //Get Nilai
-
     public int GetMathGrade(int kelas, int level)
     {
         if (kelas == 1)

@@ -12,6 +12,7 @@ public class Quiz : MonoBehaviour
     [SerializeField] private List<QuestionSO> questions = new List<QuestionSO>();
     [SerializeField] private List<QuestionSO> questionsA = new List<QuestionSO>();
     [SerializeField] private List<QuestionSO> questionsB = new List<QuestionSO>();
+    [SerializeField] private int questionType = 0;
     private QuestionSO currentQuestion;
     
     [Header("Answer")]
@@ -35,6 +36,7 @@ public class Quiz : MonoBehaviour
     [SerializeField] private Slider progressBar;
 
     public bool isComplete;
+    private QuizManager quizManager;
     private GameManager gameManager;
     private AudioManager audioManager;
 
@@ -42,6 +44,7 @@ public class Quiz : MonoBehaviour
     {
         timer = FindObjectOfType<Timer>();
         scoreKeeper = FindObjectOfType<Scorekeeper>();
+        quizManager = FindObjectOfType<QuizManager>();
         gameManager = FindObjectOfType<GameManager>();
         audioManager = FindObjectOfType<AudioManager>();
         progressBar.maxValue = questions.Count;
@@ -50,29 +53,7 @@ public class Quiz : MonoBehaviour
 
     void Start()
     {
-        /*
-        if (gameManager.QuestionType == 0)
-        {
-            for (int i = 0; i <= 8; i++)
-            {
-                questions[i] = questionsA[i];
-            }
-        }
-        else if (gameManager.QuestionType == 1)
-        {
-            for (int i = 0; i <= 8; i++)
-            {
-                questions[i] = questionsB[i];
-            }
-        }
-        else
-        {
-            for (int i = 0; i <= 8; i++)
-            {
-                questions[i] = questionsA[i];
-            }
-        }
-        */
+        ChooseQuestionType();
     }
 
     void Update()
@@ -94,6 +75,80 @@ public class Quiz : MonoBehaviour
             hasAnsweredEarly= true;
             DisplayAnswer(-1);
             SetButtonState(false);
+        }
+    }
+
+    private void ChooseQuestionType()
+    {
+        string tempMapel = quizManager.MataPelajaran;
+        int tempKelas = quizManager.Kelas;
+
+        if (tempKelas == 1)
+        {
+            if (tempMapel == "Bahasa Inggris")
+            {
+                questionType = gameManager.QuestionTypeEnglish1;
+            }
+            else if (tempMapel == "Matematika")
+            {
+                questionType = gameManager.QuestionTypeMath1;
+            }
+            else if (tempMapel == "IPA")
+            {
+                questionType = gameManager.QuestionTypeScience1;
+            }
+        }
+        else if (tempKelas == 2)
+        {
+            if (tempMapel == "Bahasa Inggris")
+            {
+                questionType = gameManager.QuestionTypeEnglish2;
+            }
+            else if (tempMapel == "Matematika")
+            {
+                questionType = gameManager.QuestionTypeMath2;
+            }
+            else if (tempMapel == "IPA")
+            {
+                questionType = gameManager.QuestionTypeScience2;
+            }
+        }
+        else if (tempKelas == 3)
+        {
+            if (tempMapel == "Bahasa Inggris")
+            {
+                questionType = gameManager.QuestionTypeEnglish3;
+            }
+            else if (tempMapel == "Matematika")
+            {
+                questionType = gameManager.QuestionTypeMath3;
+            }
+            else if (tempMapel == "IPA")
+            {
+                questionType = gameManager.QuestionTypeScience3;
+            }
+        }
+
+        if (questionType == 0)
+        {
+            for (int i = 0; i < questionsA.Count; i++)
+            {
+                questions[i] = questionsA[i];
+            }
+        }
+        else if (questionType == 1)
+        {
+            for (int i = 0; i < questionsB.Count; i++)
+            {
+                questions[i] = questionsB[i];
+            }
+        }
+        else
+        {
+            for (int i = 0; i < questionsA.Count; i++)
+            {
+                questions[i] = questionsA[i];
+            }
         }
     }
 
