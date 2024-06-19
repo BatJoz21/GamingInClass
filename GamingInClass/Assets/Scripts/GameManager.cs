@@ -139,7 +139,7 @@ public class GameManager : MonoBehaviour
         }
         else if (kelas == 3)
         {
-            math2[level - 1] = nilai;
+            math3[level - 1] = nilai;
         }
     }
 
@@ -155,7 +155,7 @@ public class GameManager : MonoBehaviour
         }
         else if (kelas == 3)
         {
-            eng2[level - 1] = nilai;
+            eng3[level - 1] = nilai;
         }
     }
 
@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour
         }
         else if (kelas == 3)
         {
-            sci2[level - 1] = nilai;
+            sci3[level - 1] = nilai;
         }
     }
 }

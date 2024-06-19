@@ -9,7 +9,7 @@ public class Scorekeeper : MonoBehaviour
     
     public int CalculateScore()
     {
-        return Mathf.RoundToInt(correctAnswer / (float)questionSeen * 100);
+        return Mathf.RoundToInt(correctAnswer / (float) questionSeen * 100);
     }
 
     public int GetCorrectAnswer() {  return correctAnswer; }

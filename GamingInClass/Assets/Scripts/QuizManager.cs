@@ -8,13 +8,14 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private string mataPelajaran;
     [SerializeField] private int kelas;
     [SerializeField] private int level;
+    [SerializeField] private int playerLastGrade;
     [SerializeField] private Quiz quiz;
     [SerializeField] private EndScreen endScreen;
     [SerializeField] private Scorekeeper scoreKeeper;
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private AudioManager audioManager;
 
-    private int finalScore;
-    private AudioManager audioManager;
+    private bool hasPlayedAudio = false;
 
     public string MataPelajaran { get => mataPelajaran; }
     public int Kelas { get => kelas; }
@@ -30,28 +31,41 @@ public class QuizManager : MonoBehaviour
     {
         quiz.gameObject.SetActive(true);
         endScreen.gameObject.SetActive(false);
+        hasPlayedAudio = false;
     }
 
     void Update()
     {
         if (quiz.isComplete)
         {
-            audioManager.PlaySFX("Complete");
+            if (!hasPlayedAudio)
+            {
+                audioManager.PlaySFX("Complete");
+                hasPlayedAudio = true;
+            }
+            
             quiz.gameObject.SetActive(false);
             endScreen.gameObject.SetActive(true);
             endScreen.ShowFinalScore();
-            if (mataPelajaran == "Matematika")
-            {
-                gameManager.SetMathGrade(kelas, level, scoreKeeper.CalculateScore());
-            }
-            else if (mataPelajaran == "Bahasa Inggris")
-            {
-                gameManager.SetEngGrade(kelas, level, scoreKeeper.CalculateScore());
-            }
-            else if (mataPelajaran == "IPA")
-            {
-                gameManager.SetSciGrade(kelas, level, scoreKeeper.CalculateScore());
-            }
+            playerLastGrade = scoreKeeper.CalculateScore();
+            InputGrade(playerLastGrade);
+        }
+    }
+
+    private void InputGrade(int nilaiPlayer)
+    {
+        Debug.Log("test");
+        if (mataPelajaran == "Matematika")
+        {
+            gameManager.SetMathGrade(kelas, level, nilaiPlayer);
+        }
+        else if (mataPelajaran == "Bahasa Inggris")
+        {
+            gameManager.SetEngGrade(kelas, level, nilaiPlayer);
+        }
+        else if (mataPelajaran == "IPA")
+        {
+            gameManager.SetSciGrade(kelas, level, nilaiPlayer);
         }
     }
 }

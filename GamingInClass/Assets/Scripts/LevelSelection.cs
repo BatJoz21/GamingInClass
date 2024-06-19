@@ -8,8 +8,7 @@ public class LevelSelection : MonoBehaviour
     [SerializeField] private TextMeshProUGUI[] gradeText;
     [SerializeField] private int kelas;
     [SerializeField] private string mataPelajaran;
-
-    private GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
 
     void Start()
     {
