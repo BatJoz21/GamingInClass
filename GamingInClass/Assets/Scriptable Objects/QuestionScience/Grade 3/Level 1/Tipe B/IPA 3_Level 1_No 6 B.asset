@@ -15,7 +15,7 @@ MonoBehaviour:
   question: Hewan yang hidup di darat adalah ...
   questionImage: {fileID: 21300000, guid: e1b958556ba704c4396bf1d3d2b555b6, type: 3}
   answers:
-  - sapi
   - ikan hiu
   - elang
+  - sapi
   correctAnswerIndex: 2

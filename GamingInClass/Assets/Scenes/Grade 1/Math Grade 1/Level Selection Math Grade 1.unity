@@ -447,8 +447,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2061337690}
-  - {fileID: 428347374}
   - {fileID: 55893796}
+  - {fileID: 428347374}
   - {fileID: 100900266}
   m_Father: {fileID: 1370633307}
   m_RootOrder: -1
@@ -1543,6 +1543,7 @@ MonoBehaviour:
   - {fileID: 1387830618}
   kelas: 1
   mataPelajaran: MATH
+  gameManager: {fileID: 0}
 --- !u!1 &1387830616
 GameObject:
   m_ObjectHideFlags: 0
