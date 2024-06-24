@@ -19,5 +19,5 @@ MonoBehaviour:
   answers:
   - Hello, what is your name?
   - Hello, thats my name.
-  - Hello, who are you?
+  - Hello, how are you?
   correctAnswerIndex: 0

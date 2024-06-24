@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a05b790bc600b42aa0e7c25998588a, type: 3}
   m_Name: Math 3_Level 2_No 8 B
   m_EditorClassIdentifier: 
-  question: 235 km + 50 hm = ... km
+  question: 235 km - 50 hm = ... km
   questionImage: {fileID: 21300000, guid: e1b958556ba704c4396bf1d3d2b555b6, type: 3}
   answers:
   - 285

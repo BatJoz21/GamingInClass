@@ -338,7 +338,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 76600000
     m_LastClickedID: 24694
-    m_ExpandedIDs: 00000000766000008a6000009c6000009e600000a060000000ca9a3b
+    m_ExpandedIDs: 00000000766000008a6000008c6000009c6000009e600000a060000012bf000014bf000016bf00001abf00001cbf00001ebf000022bf000024bf00004cbf00004ebf000050bf0000b2bf0000e4bf0000f0bf000016c000001ec0000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0c69ffff986cffff446fffffec71ffff9274ffff2a77ffffac79ffff447cffffd67effff7a81ffffe482ffff4087ffff4eacffff64b3ffffdab6ffff88b8ffffb6bbffffc0bfffff6ec4ffff44caffff2ccfffff62d5ffff36dbffff4cddffffacdfffff4af8ffff2cfbfffff4ffffff12610000ce6700008a690000cc9700000a9800009a9a0000ba9a0000169b0000549b0000489c00008a9c00007e9d0000be9d0000b69e0000f29e000026a000001aa1000056a100008ea20000c2a30000f2a4000056a60000baa60000e0a60000
+      m_ExpandedIDs: 2ec0ffff4ac1ffff70c2ffff82c3ffffaec4ffffaac6ffffcec7ffff18c9ffff6ecaffff1acbffff6cccffff34ceffff50cfffff72d0ffff54d2ffff84d3ffffb0d4ffff5cd5ffff82d6ffffa6d7ffffc6d8ffff72d9ffffa0daffffbcdbffff70dcffff98ddffff44deffffa4dffffff8e0ffffc8e1ffffeae2ffff02e4ffff22e5ffffd6e5fffff4e7ffff12e9ffff26eaffffc0ebffff96edffff62f0ffffc2f2fffffaf5ffff46f8ffff2cfbffff46640000e2670000326a0000886f0000da71000028740000cc780000707a00001a7b00006c7d0000d68600005c8a0000b08c00002e90000074920000ba94000034980000869a0000d49c000052a0000098a20000dea400004ab0000090b200000cb6000078b80000baba0000fcbc0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -995,7 +995,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

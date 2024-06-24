@@ -3200,10 +3200,12 @@ MonoBehaviour:
   mataPelajaran: Bahasa Inggris
   kelas: 1
   level: 1
+  playerLastGrade: 0
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
   scoreKeeper: {fileID: 1672215099}
   gameManager: {fileID: 0}
+  audioManager: {fileID: 0}
 --- !u!4 &1679802653
 Transform:
   m_ObjectHideFlags: 0
@@ -3365,6 +3367,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0653284eb12f06d44a859a742634fa4d, type: 2}
   - {fileID: 11400000, guid: b2b47494d8d3dd443b37051d095fcaa7, type: 2}
   - {fileID: 11400000, guid: 22fc69d974ccc4c409877c35e8e5e013, type: 2}
+  questionType: 0
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}

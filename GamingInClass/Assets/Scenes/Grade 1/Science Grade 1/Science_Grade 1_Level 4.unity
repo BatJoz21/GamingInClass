@@ -242,7 +242,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (Kelas 1 SD, IPA, Level 1)
+  m_text: (Kelas 1 SD, IPA, Level 4)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3114,10 +3114,12 @@ MonoBehaviour:
   mataPelajaran: IPA
   kelas: 1
   level: 4
+  playerLastGrade: 0
   quiz: {fileID: 1795835065}
   endScreen: {fileID: 747364603}
   scoreKeeper: {fileID: 1672215099}
   gameManager: {fileID: 0}
+  audioManager: {fileID: 0}
 --- !u!4 &1679802653
 Transform:
   m_ObjectHideFlags: 0
@@ -3279,6 +3281,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 10cfe0fbac7caef419c3697155beb627, type: 2}
   - {fileID: 11400000, guid: fee30a6240c43e74da6f5b9f0112ab24, type: 2}
   - {fileID: 11400000, guid: 80d8208bee45bc14fad6cfc11a76adb4, type: 2}
+  questionType: 0
   answerButtons:
   - {fileID: 8817503768200130658}
   - {fileID: 577935529}

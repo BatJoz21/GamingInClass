@@ -16,6 +16,6 @@ MonoBehaviour:
   questionImage: {fileID: 21300000, guid: e1b958556ba704c4396bf1d3d2b555b6, type: 3}
   answers:
   - 285
-  - 230
+  - 240
   - 735
   correctAnswerIndex: 1
