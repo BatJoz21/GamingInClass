@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2699635067028509159, guid: 4dad1329ac758fe47b1fac1d18dcc25f, type: 3}
       propertyPath: m_text
-      value: Admin Page for Grade 3
+      value: Teacher Page for Grade 3
       objectReference: {fileID: 0}
     - target: {fileID: 3031914020960905193, guid: 4dad1329ac758fe47b1fac1d18dcc25f, type: 3}
       propertyPath: m_AnchorMax.y

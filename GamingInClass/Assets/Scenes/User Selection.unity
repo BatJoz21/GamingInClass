@@ -2894,7 +2894,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5700056836648839777, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_text
-      value: ADMIN
+      value: GURU
       objectReference: {fileID: 0}
     - target: {fileID: 6725055096769755831, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Pivot.x
@@ -3014,7 +3014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8373995542732448880, guid: a15050bbac301124d86780339ab3be8d, type: 3}
       propertyPath: m_Name
-      value: Button Admin
+      value: Button Teacher
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

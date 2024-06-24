@@ -335,10 +335,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 76600000
-    m_LastClickedID: 24694
-    m_ExpandedIDs: 00000000766000008a6000008c6000009c6000009e600000a060000012bf000014bf000016bf00001abf00001cbf00001ebf000022bf000024bf00004cbf00004ebf000050bf0000b2bf0000e4bf0000f0bf000016c000001ec0000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7a600000
+    m_LastClickedID: 24698
+    m_ExpandedIDs: 000000007a6000008e6000007462000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000076600000
+    m_ExpandedIDs: 000000007a600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2ec0ffff4ac1ffff70c2ffff82c3ffffaec4ffffaac6ffffcec7ffff18c9ffff6ecaffff1acbffff6cccffff34ceffff50cfffff72d0ffff54d2ffff84d3ffffb0d4ffff5cd5ffff82d6ffffa6d7ffffc6d8ffff72d9ffffa0daffffbcdbffff70dcffff98ddffff44deffffa4dffffff8e0ffffc8e1ffffeae2ffff02e4ffff22e5ffffd6e5fffff4e7ffff12e9ffff26eaffffc0ebffff96edffff62f0ffffc2f2fffffaf5ffff46f8ffff2cfbffff46640000e2670000326a0000886f0000da71000028740000cc780000707a00001a7b00006c7d0000d68600005c8a0000b08c00002e90000074920000ba94000034980000869a0000d49c000052a0000098a20000dea400004ab0000090b200000cb6000078b80000baba0000fcbc0000
+      m_ExpandedIDs: 729affffbe9affff269cffff889cffffea9cffff4c9dffffa29effff2aa0ffff92a0fffffaa0ffff62a1ffffcaa1ffff52a3ffffbaa3ffff22a4ffff8aa4fffff2a4ffff7aa6ffffe6a6ffff4ea7ffffb6a7ffff1ea8ffff86a8ffff0eaaffff76aaffffdeaaffff46abffffaeabffff36adffff9eadffff06aeffff6eaeffffd6aeffff5eb0ffffcab0ffff32b1ffff9ab1ffff02b2ffff6ab2fffff2b3ffff56b4ffffbab4ffff1eb5ffff70b6fffff8b7ffff4eb9ffffa4bafffffabbffff5abdffffe4beffff50bfffffaac0fffff2c1fffffcc3ffff06c6ffff12c8ffff6cc9fffffccaffff6ccdfffff8ceffff96d0ffff22d2ffffd6d3ffffa2d9ffff4edbfffff0dcffff1ce1ffff6ae3ffff84e5ffff92e6ffffeae8ffffdef4ffff86f6ffff00fbffff2cfbffff3a670000b6690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
