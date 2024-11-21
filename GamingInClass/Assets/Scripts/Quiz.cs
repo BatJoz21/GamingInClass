@@ -28,8 +28,8 @@ public class Quiz : MonoBehaviour
     [SerializeField] private Image timerImage;
     Timer timer;
 
-    [Header("Scoring")]
-    [SerializeField] TextMeshProUGUI scoreText;
+    //[Header("Scoring")]
+    //[SerializeField] TextMeshProUGUI scoreText;
     Scorekeeper scoreKeeper;
 
     [Header("Progress Bar")]
@@ -197,7 +197,7 @@ public class Quiz : MonoBehaviour
         DisplayAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
-        scoreText.text = "Score: " + scoreKeeper.CalculateScore() + "%";
+        //scoreText.text = "Score: " + scoreKeeper.CalculateScore() + "%";
     }
 
     private void DisplayAnswer(int index)
