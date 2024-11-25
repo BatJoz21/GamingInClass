@@ -13,8 +13,10 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Scorekeeper scoreKeeper;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private AudioManager audioManager;
+    [SerializeField] private PlayConfetti confetti;
 
     private bool hasPlayedAudio = false;
+    private bool hasPlayedConfetti = false;
 
     public string MataPelajaran { get => mataPelajaran; }
     public int Kelas { get => kelas; }
@@ -24,6 +26,7 @@ public class QuizManager : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManager>();
         audioManager = FindObjectOfType<AudioManager>();
+        confetti = FindObjectOfType<PlayConfetti>();
     }
 
     void Start()
@@ -31,6 +34,7 @@ public class QuizManager : MonoBehaviour
         quiz.gameObject.SetActive(true);
         endScreen.gameObject.SetActive(false);
         hasPlayedAudio = false;
+        hasPlayedConfetti = false;
     }
 
     void Update()
@@ -46,6 +50,11 @@ public class QuizManager : MonoBehaviour
             quiz.gameObject.SetActive(false);
             endScreen.gameObject.SetActive(true);
             endScreen.ShowFinalScore();
+            if (!hasPlayedConfetti)
+            {
+                confetti.LaunchParticle();
+                hasPlayedConfetti = true;
+            }         
             playerLastGrade = scoreKeeper.CalculateScore();
             InputGrade(playerLastGrade);
         }
