@@ -48,8 +48,8 @@ public class Options : MonoBehaviour
 
     public void GetVolumeTxt()
     {
-        float temp1 = audioManager.GetBGMVol() * 100;
-        float temp2 = audioManager.GetSFXVol() * 100;
+        int temp1 = ((int)(audioManager.GetBGMVol() * 100));
+        float temp2 = ((int)(audioManager.GetSFXVol() * 100));
 
         string bgmVol = temp1.ToString();
         string sfxVol = temp2.ToString();
