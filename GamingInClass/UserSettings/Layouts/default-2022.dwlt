@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Console
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 366.40002
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 286.4
     height: 445.6
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 445.6
     width: 1169.6
     height: 277.19998
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityProject\GamingInClass\GamingInClass
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba600000
-    m_LastClickedID: 24762
-    m_ExpandedIDs: 00000000ba60000000ca9a3b
+    m_SelectedIDs: dc600000
+    m_LastClickedID: 24796
+    m_ExpandedIDs: 00000000c860000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba600000
+    m_ExpandedIDs: 00000000c8600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 108dffff5c8dffffc68effffb08fffff9a90ffff8491ffff6293ffffe094ffffd095ffffc096ffffb097ffffa098ffff1e9affff0e9bfffffe9bffffee9cffffde9dffff5c9fffffc89fffffb8a0ffffa8a1ffff98a2ffff88a3ffff06a5fffff6a5ffffe6a6ffffdca7ffffcca8ffff4aaaffff3aabffff2aacffff1aadffff0aaeffff88affffff4afffffe4b0ffffd4b1ffffc4b2ffffb4b3ffff32b5ffff1eb6ffff0ab7fffff6b7ffffd0b9ffff4ebbffff2cbdffff0abfffffeac0ffffd4c2ffff54c4ffffc0c4ffff1ac6ffff68c7ffff72c9ffff7ccbffff88cdffffe2ceffff78d0ffff2cfbffff
+      m_ExpandedIDs: 4ea5ffff9aa5ffff0aa7fffffaa7ffffeaa8ffffdaa9ffffbeabffff42adffff38aeffff2eafffff24b0ffff1ab1ffff9eb2ffff94b3ffff8ab4ffff80b5ffff76b6fffffab7ffff6cb8ffff62b9ffff58baffff4ebbffff44bcffffc8bdffffbebeffffb4bfffffb0c0ffffa6c1ffff2ac3ffff20c4ffff16c5ffff0cc6ffff02c7ffff86c8fffff8c8ffffeec9ffffe4caffffdacbffffd0ccffff54ceffff46cfffff38d0ffff2ad1ffff0ad3ffff8ed4ffff72d6ffff56d8ffff3cdaffff2cdcffffb2ddffff24deffff84dfffffd8e0ffffe8e2fffff8e4ffff0ae7ffff6ae8ffff06eaffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -862,9 +862,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1006.7756, y: 455.53903, z: 1056.9729}
+    m_Target: {x: 990.0841, y: 500.60025, z: 1057.7397}
     speed: 2
-    m_Value: {x: 1006.7756, y: 455.53903, z: 1056.9729}
+    m_Value: {x: 990.0841, y: 500.60025, z: 1057.7397}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -914,9 +914,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 669.02875
+    m_Target: 605.2435
     speed: 2
-    m_Value: 669.02875
+    m_Value: 605.2435
   m_Ortho:
     m_Target: 1
     speed: 2
