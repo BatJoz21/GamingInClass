@@ -12,3 +12,15 @@ Minimum requirement:
 - Processor : AMD A4-9125 RADEON R3 / Intel Core i3-4150
 - RAM       : 2 GB
 - Storage   : 200 MB
+
+# Installation
+1. Go to GamingInClass Itch Io page at: https://batjoz21.itch.io/gaminginclass
+2. Download "GamingInClass_0.1.3.zip" zip file from the Itch Io page.
+3. Extract the zip file into an empty folder of your choice.
+4. Open "GamingInClass.exe" to play the game.
+
+# Contact
+If you have any questions or suggestions, please contact:
+
+Name: Jozka Roihutan Siregar
+Email: jozkasiregar@gmail.com
